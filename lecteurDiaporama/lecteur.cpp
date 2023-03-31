@@ -92,7 +92,7 @@ void Lecteur::afficher()
     }
     else
     {
-        cout << "diaporama vide" << endl;
+        cout << "diaporama vide" << endl << endl;
     }
 
 }
