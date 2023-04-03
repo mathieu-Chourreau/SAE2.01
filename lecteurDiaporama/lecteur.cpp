@@ -62,6 +62,45 @@ void Lecteur::chargerDiaporama()
 
      // trier le contenu du diaporama par ordre croissant selon le rang de l'image dans le diaporama
 	 // A FAIRE
+/*
+    // variable
+    Image copieImage;
+
+    //echange
+
+    copieImage = imageCourante();
+    x=y;
+    y=copieX;
+
+
+        void faireMonteeLaBulleIci(int tab[], unsigned short int bDeb , short unsigned int ici)
+        {
+
+            //Faire monter tri bulleIci
+            bDeb=0;
+            for (unsigned short int i = bDeb; i < ici; i++)
+            {
+                if (tab[i]>tab[i+1])
+                {
+                    echanger(tab[i],tab[i+1]);
+                }
+            }
+
+        }
+        void   triBulle (int tab[],
+                         unsigned int nbTab)
+        {
+            short unsigned int bDeb;
+
+            //TRAITEMENTS
+            bDeb=0;
+            for (unsigned short int ici = static_cast<short unsigned int>(nbTab-1) ; ici > bDeb+1; ici--)
+            {
+                faireMonteeLaBulleIci(tab,bDeb,ici);
+            }
+
+        }
+*/
 
 	 
      _posImageCourante = 0;
@@ -120,7 +159,7 @@ unsigned int Lecteur::nbImages()
 
 Image *Lecteur::imageCourante()
 {
-    return nullptr;
+    afficher();
 }
 
 unsigned int Lecteur::numDiaporamaCourant()
