@@ -7,11 +7,26 @@ Lecteur::Lecteur()
 
 void Lecteur::avancer()
 {
-
+    if(_numDiaporamaCourant < nbImages())
+    {
+        _numDiaporamaCourant++;
+    }
+    else
+    {
+        _numDiaporamaCourant = 1;
+    }
 }
 
 void Lecteur::reculer()
 {
+    if(_numDiaporamaCourant > 1 )
+    {
+        _numDiaporamaCourant--;
+    }
+    else
+    {
+        _numDiaporamaCourant = nbImages();
+    }
 }
 
 void Lecteur::changerDiaporama(unsigned int pNumDiaporama)
@@ -47,6 +62,7 @@ void Lecteur::chargerDiaporama()
 
      // trier le contenu du diaporama par ordre croissant selon le rang de l'image dans le diaporama
 	 // A FAIRE
+
 	 
      _posImageCourante = 0;
 
@@ -86,7 +102,7 @@ void Lecteur::afficher()
     {
         cout << "le numero de diapo est : " << numDiaporamaCourant() << endl;
     }
-    if (numDiaporamaCourant() > 0)
+    if (nbImages() > 0)
     {
         cout << imageCourante() << endl ;
     }
@@ -109,5 +125,5 @@ Image *Lecteur::imageCourante()
 
 unsigned int Lecteur::numDiaporamaCourant()
 {
-    return 0;
+    return _numDiaporamaCourant;
 }
