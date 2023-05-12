@@ -33,7 +33,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\1erAnnee\\S2\\S2.01\\V1\\lecteurvue",
+        "F:\\1erAnnee\\S2\\S2.01_finale\\V1\\lecteurVue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -69,10 +69,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\1erAnnee\\S2\\S2.01\\V1\\lecteurvue\\main.cpp"
+        "F:\\1erAnnee\\S2\\S2.01_finale\\V1\\lecteurVue\\main.cpp"
     ],
     "directory": "F:/1erAnnee/S2/S2.01/V1/build-lecteurvue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/1erAnnee/S2/S2.01/V1/lecteurvue/main.cpp"
+    "file": "F:/1erAnnee/S2/S2.01_finale/V1/lecteurVue/main.cpp"
 },
 {
     "arguments": [
@@ -108,7 +108,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\1erAnnee\\S2\\S2.01\\V1\\lecteurvue",
+        "F:\\1erAnnee\\S2\\S2.01_finale\\V1\\lecteurVue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -144,10 +144,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\1erAnnee\\S2\\S2.01\\V1\\lecteurvue\\lecteurvue.cpp"
+        "F:\\1erAnnee\\S2\\S2.01_finale\\V1\\lecteurVue\\lecteurvue.cpp"
     ],
     "directory": "F:/1erAnnee/S2/S2.01/V1/build-lecteurvue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/1erAnnee/S2/S2.01/V1/lecteurvue/lecteurvue.cpp"
+    "file": "F:/1erAnnee/S2/S2.01_finale/V1/lecteurVue/lecteurvue.cpp"
 },
 {
     "arguments": [
@@ -183,7 +183,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\1erAnnee\\S2\\S2.01\\V1\\lecteurvue",
+        "F:\\1erAnnee\\S2\\S2.01_finale\\V1\\lecteurVue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
@@ -219,10 +219,10 @@
         "-Wno-unknown-warning-option",
         "-Wno-documentation-unknown-command",
         "-fno-delayed-template-parsing",
-        "F:\\1erAnnee\\S2\\S2.01\\V1\\lecteurvue\\lecteurvue.h"
+        "F:\\1erAnnee\\S2\\S2.01_finale\\V1\\lecteurVue\\lecteurvue.h"
     ],
     "directory": "F:/1erAnnee/S2/S2.01/V1/build-lecteurvue-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/.qtc_clangd",
-    "file": "F:/1erAnnee/S2/S2.01/V1/lecteurvue/lecteurvue.h"
+    "file": "F:/1erAnnee/S2/S2.01_finale/V1/lecteurVue/lecteurvue.h"
 },
 {
     "arguments": [
@@ -258,7 +258,7 @@
         "-DQT_CORE_LIB",
         "-DQT_NEEDS_QMAIN",
         "-I",
-        "F:\\1erAnnee\\S2\\S2.01\\V1\\lecteurvue",
+        "F:\\1erAnnee\\S2\\S2.01_finale\\V1\\lecteurVue",
         "-I",
         "C:\\Qt\\Qt6.3.1\\6.3.1\\mingw_64\\include",
         "-I",
